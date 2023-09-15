@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sing UP Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <div class="g-form">
+                    <img src="img/google-logo.svg" width="70" alt="Logo">
+                    <h3>Create your Google Account</h3>
+                    <form action="#">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                        <div id="user">
+                            <input type="email" placeholder="Username" required>
+                            <label>@gmail.com</label>
+                        </div>
+                        <span>You can use letter, number & periods</span>
+                        <br>
+                        <a href="#">Use my current email address</a>
+                        <input type="password" placeholder="Password" id="pwd"
+                            required>
+                        <input type="password" placeholder="Confirm Password"
+                            id="cpwd" required>
+                        <span>Use 8 or more character with a mix of letters,
+                            numbers & symbols</span>
+                        <br>
+                        <input type="checkbox" class="checkbox"
+                            onclick="show()">
+                        &nbsp; Show Password
+                        <div class="btm-links">
+                            <a href="#">Sign in instead</a>
+                            <input type="submit" value="Next">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+                <img src="img/account-logo.svg" alt="Account Logo">
+                <p>One account. All of Google working for you</p>
+            </div>
+        </div>
+    </header>
+    <script src="js/main.js"></script>
+</body>
+</html>
